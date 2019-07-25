@@ -30,3 +30,6 @@
 
 # 11.javaFxStyle
 ![javaFxStyle](images/javaFxStyle.png)
+
+# 12.propertyBinding
+![propertyBinding](images/propertyBinding.png)
