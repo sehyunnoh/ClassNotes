@@ -33,3 +33,6 @@
 
 # 12.propertyBinding
 ![propertyBinding](images/propertyBinding.png)
+
+# 13.outputStream
+![outputStream](images/outputStream.png)
