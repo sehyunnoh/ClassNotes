@@ -36,3 +36,9 @@
 
 # 13.outputStream
 ![outputStream](images/outputStream.png)
+
+# 14.FileIO
+![FileIO](images/FileIO.png)
+
+# 15.FileInputGrades
+![FileInputGrades](images/FileInputGrade.png)
