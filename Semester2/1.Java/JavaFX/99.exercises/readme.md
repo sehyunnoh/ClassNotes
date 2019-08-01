@@ -45,3 +45,6 @@
 
 # 16.NavigateRandomFile
 ![16.NavigateRandomFile](images/16.NavigateRandomFile.png)
+
+# 17.PatientManager
+![patientManager](images/17.patientManager.png)
