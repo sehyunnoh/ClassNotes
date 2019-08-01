@@ -42,3 +42,6 @@
 
 # 15.FileInputGrades
 ![FileInputGrades](images/FileInputGrade.png)
+
+# 16.NavigateRandomFile
+![16.NavigateRandomFile](images/16.NavigateRandomFile.png)
