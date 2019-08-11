@@ -125,10 +125,32 @@ expr index "Linux is a great operating system" "x"
 
 ## 9. Shell Variables - positional parameters
 ```bash
+unset DOG
+readonly DOG
+
+x=7
+y=13
+z=x+y
+echo "$z"
+z=$x+$y
+echo "$z"
+
+env
+printenv
+echo $TERM
+echo $SHELL
+echo $PATH
+export PATH=$PATH:/new/dir 
+
+MYPROMPT=$PS1
+echo $MYPROMPT
+
+
 set A B C
 echo $1 $2 $3
 
 echo “the first argument is $1”
 echo “the second is $2”
 echo the number off arguments is $#
+
 ```
