@@ -76,7 +76,7 @@ line 2: c h h or c h e c k m a r k.
 #!/bin/bash
 while [ $# -gt 0 ]
 do
-   let multi=$multi+$1
+   let multi=$multi*$1
    shift
 done
 echo "Multiple is $multi"
