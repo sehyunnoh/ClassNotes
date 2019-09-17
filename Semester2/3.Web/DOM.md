@@ -55,7 +55,7 @@
 
         var stopsign = document.createElement("div");
         stopsign.setAttribute("width", 100);
-        stopsign.setAttribute("id", stopsign);
+        stopsign.setAttribute("id", "stopsign");
         stopsign.innerHTML = "STOP";
         stopsign.style.background = "red";
         stopsign.style.color = "white";
