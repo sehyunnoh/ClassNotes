@@ -1,0 +1,1 @@
+> every, each => group by 쓰라는 의미
