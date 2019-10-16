@@ -81,23 +81,26 @@ Statement s1 = null;
 PreparedStatement s2 = null;
 ```
 
+2. Write the Java code necessary to execute an SQL statement using s1 as defined above, storing the result of the query in a variable of the appropriate type. The statement to execute is: SELECT * FROM myTable WHERE userid='RobertSmith'; 
+```java
+String query = "SELECT * FROM myTable WHERE userid='RobertSmith'";
+ResultSet rs = s1.executeQuery(query);
+```
+  
+3. Write the Java code necessary to execute the same SQL statement from part b, using s2 as defined above, storing the result of the query in a variable of the appropriate type 
+```java
+s2.setInt(1, 13);
+ResultSet rs = s2.executeQuery();
+```
 
+## It is often a good idea to develop large-scale enterprise web applications according to the principles of multi-tier architecture. 
  
+1. Explain one important benefit of structuring the code this way 
  
-b. Write the Java code necessary to execute an SQL statement using s1 as defined above, storing the result of the query in a variable of the appropriate type. The statement to execute is: SELECT * FROM myTable WHERE userid='RobertSmith'; 
+2. Explain one possible drawback. 
+
+## You can think of a Java web app as having three main tiers (with each tier possibly further broken into other layers or sub-tiers). 
  
+1. Name the three main tiers on the diagram below. 
  
- 
-c. Write the Java code necessary to execute the same SQL statement from part b, using s2 as defined above, storing the result of the query in a variable of the appropriate type 
- 
- 
- 
-1. It is often a good idea to develop large-scale enterprise web applications according to the principles of multi-tier architecture. 
- 
-a. Explain one important benefit of structuring the code this way 
- 
- 
- 
- 
- 
-b. Explain one possible drawback. 
+2. Draw a line connecting each of the technologies on the right to the one main tier they help to implement in a Java Web App. 
