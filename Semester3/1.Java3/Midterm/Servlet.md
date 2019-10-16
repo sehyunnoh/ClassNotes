@@ -113,7 +113,9 @@ ResultSet rs = s2.executeQuery();
  
 1. Name the three main tiers on the diagram below. 
    - 3-Tier Architecture
+  
 ![3tier](images/architecture.jpg)
  
-2. Draw a line connecting each of the technologies on the right to the one main tier they help to implement in a Java Web App. 
+1. Draw a line connecting each of the technologies on the right to the one main tier they help to implement in a Java Web App. 
+
 ![draw](images/draw.jpg)
