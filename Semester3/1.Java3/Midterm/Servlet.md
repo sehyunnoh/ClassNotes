@@ -27,6 +27,13 @@ out.close();
 
 ## getParameter vs getAttribute
 ![gpa](images/parameter_attribute.jpeg)
+1. getParameter
+   - getParameter processes http request parameters.
+   - Its the stuff that is passed from the client to the server, so it can only return a String value:
+2. getAttribute
+   - getAttribute is intented to be used for server side only.
+   - Lets say you want to pass an attribute from the servlet to the JSP, you use HttpServletRequest.setAttribute.
+Then in the JSP you read it using getAttribute:
 
 ## redirect vs dispatch
 1. redirect
