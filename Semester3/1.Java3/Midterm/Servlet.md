@@ -53,4 +53,8 @@ out.close();
 
 ## POJO & JavaBeans
 
+## GET vs post
+![GP](images/get_post.jpg)
+
 ## getParameter vs getAttribute
+![gpa](images/parameter_attribute.jpeg)
