@@ -112,5 +112,8 @@ ResultSet rs = s2.executeQuery();
 ## You can think of a Java web app as having three main tiers (with each tier possibly further broken into other layers or sub-tiers). 
  
 1. Name the three main tiers on the diagram below. 
+   - 3-Tier Architecture
+![3tier](images/architecture.jpg)
  
 2. Draw a line connecting each of the technologies on the right to the one main tier they help to implement in a Java Web App. 
+![draw](images/draw.jpg)
