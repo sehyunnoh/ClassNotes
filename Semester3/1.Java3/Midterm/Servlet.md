@@ -42,7 +42,7 @@ out.close();
    - getServletContext().getRequestDispatcher("testDispatch2").forward(request, response);
    - request 자체를 넘기는 방식
    - 작업이 서버에서 발생
-   - url 변경 안됨 (최소 호출한 url이 그대로 있음) 
+   - url 변경 안됨 (최초 호출한 url이 그대로 있음) 
 
 ## For each of the following Servlet methods, state when each method is called?  
 [lifecyle](https://www.tutorialspoint.com/servlets/servlets-life-cycle.htm)

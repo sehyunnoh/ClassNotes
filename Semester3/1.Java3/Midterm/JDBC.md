@@ -32,7 +32,17 @@ public ResultSet listProducts() {
 		String sql = "SELECT * FROM course;";
 		try {
 			stat = connection.createStatement();
-			rs = stat.executeQuery(sql);
+            rs = stat.executeQuery(sql);
+            
+            while (rs.next()) {
+			sId = rs.getInt("id");
+			String fName = rs.getString("firstName");
+			String lName = rs.getString("lastName");
+			int age = rs.getInt("age");
+			int cnt = rs.getInt("cnt");
+
+			array.add(new Data(sId, fName, lName, age, cnt));
+		    }
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
