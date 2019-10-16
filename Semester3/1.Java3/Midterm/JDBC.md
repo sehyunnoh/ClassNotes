@@ -1,4 +1,9 @@
 ```java
+private static final String username = "root";
+private static final String password = "";
+private static final String connURL = "jdbc:mysql://localhost:3306/hotsummer";
+private Connection connection = null;
+
 // option 임 (예전 버전이면 필수로 넣어줘야 되는데, 지금은 안 넣어줘도 됨.)))
 public DataAccess() {
 	try {
@@ -9,9 +14,33 @@ public DataAccess() {
         System.exit(0);
     }
 }
-```
- - Note: if you are using a different database or an older version of JDBC, you  may still be required to load the driver manually (but in practice it almost never happens)
 
+public boolean connect() {
+    try {
+        connection = DriverManager.getConnection(connURL, username, password);
+
+    } catch (SQLException e) {
+        System.err.println("could not connect to the database" + e.getMessage());
+        return false;
+    }
+    return true;
+}
+
+public ResultSet listProducts() {
+		Statement stat = null;
+		ResultSet rs = null;
+		String sql = "SELECT * FROM course;";
+		try {
+			stat = connection.createStatement();
+			rs = stat.executeQuery(sql);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rs;
+	}
+```
+- Note: if you are using a different database or an older version of JDBC, you  may still be required to load the driver manually (but in practice it almost never happens)
 
 ## JDBC
 - DriverManager : used to load or select JDBC drivers 
