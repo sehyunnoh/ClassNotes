@@ -8,24 +8,6 @@
 >   - @WebServlet( { “/AnnotationTest”, “/SayHello” } ) 
 >   - @WebServlet(name = "ThisIsTheServletNameNotTheURL", description = "This is our servlet description", urlPatterns= {"/AnnotationTest", "/SayHello"}, asyncSupported= false )
 
-> Welcome files
-> ```xml
-> <welcome-file-list> 
->    <welcome-file>ExpenseForm.html</welcome-file> 
->    <welcome-file>index.html</welcome-file> 
-> </welcome-file-list>
-> ```
-
-> Error pages
-> ```xml
-> <error-page> 
->    <error-code>404</error-code> 
->    <location>/pageNotFound.html</location> 
->    <exception-type>java.lang.NumberFormatException</exception-type> 
->    <location>/error.html</location> 
-> </error-page>
-> ```
-
 ## source
 ```java
 res.setContentType("text/html"); 
@@ -34,15 +16,11 @@ out.println("<HTML><HEAD><TITLE>Hello World!</TITLE>"+
 "</HEAD><BODY>Hello World!</BODY></HTML>"); 
 out.close();
 ```
-
-
-
-
 ## POJO & JavaBeans
 
 ## GET vs post
 ![GP](images/get_post.jpg)
-[gp2](https://www.diffen.com/difference/GET-vs-POST-HTTP-Requests)
+[GET vs POST](https://www.diffen.com/difference/GET-vs-POST-HTTP-Requests)
 
 ## Shortly describe three cases when GET method cannot (should not) be used in forms
 - password, sin number, too much long contents
@@ -119,3 +97,4 @@ ResultSet rs = s2.executeQuery();
 1. Draw a line connecting each of the technologies on the right to the one main tier they help to implement in a Java Web App. 
 
 ![draw](images/draw.jpg)
+![draw2](images/draw2.jpeg)

@@ -12,6 +12,8 @@
   </welcome-file-list>
 </web-app>
 ```
+
+## mapping
 ```xml
   <servlet>
   	<servlet-name>servletTest</servlet-name>
@@ -21,4 +23,21 @@
   	<servlet-name>servletTest</servlet-name>
   	<url-pattern>/test</url-pattern>
   </servlet-mapping>
+```
+## Welcome files
+```xml
+<welcome-file-list> 
+   <welcome-file>ExpenseForm.html</welcome-file> 
+   <welcome-file>index.html</welcome-file> 
+</welcome-file-list>
+```
+
+## Error pages
+```xml
+<error-page> 
+   <error-code>404</error-code> 
+   <location>/pageNotFound.html</location> 
+   <exception-type>java.lang.NumberFormatException</exception-type> 
+   <location>/error.html</location> 
+</error-page>
 ```
