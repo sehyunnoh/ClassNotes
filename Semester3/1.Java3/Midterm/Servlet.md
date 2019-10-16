@@ -95,9 +95,19 @@ ResultSet rs = s2.executeQuery();
 
 ## It is often a good idea to develop large-scale enterprise web applications according to the principles of multi-tier architecture. 
  
-1. Explain one important benefit of structuring the code this way 
+1. Explain one important benefit of structuring the code this way
+   - Advantages
+      - Scalability
+      - Data Integrity
+      - Reusability
+      - Reduced Distribution
+      - Improved Security
+      - Improved Availability
  
 2. Explain one possible drawback. 
+   - Disadvantages
+      - Increase in Effort
+      - Increase in Complexity 
 
 ## You can think of a Java web app as having three main tiers (with each tier possibly further broken into other layers or sub-tiers). 
  
