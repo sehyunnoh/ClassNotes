@@ -93,6 +93,7 @@ ResultSet rs = s2.executeQuery();
    - Disadvantages
       - Increase in Effort
       - Increase in Complexity 
+      - More failure risks
 
 ## You can think of a Java web app as having three main tiers (with each tier possibly further broken into other layers or sub-tiers). 
  

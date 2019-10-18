@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <hr />
+    <h1>Tip Calculator</h1>
+    <hr style="color:red"/>
+    <form action="servlet2" method="post">
+      Bill Amount: $
+      <input type="number" name="amt" />
+      <br />
+      Select a Tip%:
+      <select name="tip">
+        <option value="1">None</option>
+        <option value="5">5%</option>
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+        <option value="25">25%</option>
+      </select>
+      <br />
+      <input type="submit" value="calculate" />
+    </form>
+
+  </body>
+</html>
