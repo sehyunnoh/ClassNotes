@@ -8,7 +8,7 @@ public class OrderServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		out.append("		<div class='price' id='price'>");
-		out.append(makePrice(size, numbers));
+		out.append(             makePrice(size, numbers));
 		out.append("		</div>");
 		out.append("		<br>");
 		out.append("		<div id='totalSum'>So far, we have made $" + String.format("%.2f", totalSum) + "</div>");
