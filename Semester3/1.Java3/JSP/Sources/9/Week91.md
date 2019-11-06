@@ -119,7 +119,7 @@ public class Controller extends HttpServlet {
 			<hr>
 			<h2 style="color: red">
 				ID: ${student.ID} <br> First Name: ${student.firstName} <br>
-				Last Name: ${student.lastName}
+				<!-- Last Name: ${student.lastName} -->
 </body>
 </html>
 ```
