@@ -1,4 +1,3 @@
-
 - 40-50+ multiple choice / true or false questions
 - SLATE based online test
 - Now the topics that will be covered on the test:
