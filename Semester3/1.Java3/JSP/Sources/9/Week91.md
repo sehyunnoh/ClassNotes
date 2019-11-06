@@ -99,27 +99,22 @@ public class Controller extends HttpServlet {
 		Student std = (Student) request.getAttribute("student");
 	%>
 	<h1 style="color: blue">
-		ID:
-		<%=std.getID()%>
-		<br> First Name:
-		<%=std.getFirstName()%>
-		<br> Last Name:
-		<%
-			out.print(std.getLastName());
-		%>
-		<hr>
-		<jsp:useBean id="student" class="model.Student" scope="session"></jsp:useBean>
-		<h1 style="color: blue">
-			ID:
-			<jsp:getProperty property="ID" name="student" />
-			<br>First Name:
-			<jsp:getProperty property="firstName" name="student" />
-			<br>Last Name:
-			<jsp:getProperty property="lastName" name="student" />
-			<hr>
-			<h2 style="color: red">
-				ID: ${student.ID} <br> First Name: ${student.firstName} <br>
-				<!-- Last Name: ${student.lastName} -->
+		ID: <%=std.getID()%><br> 
+		First Name: <%=std.getFirstName()%><br> 
+		Last Name: <% out.print(std.getLastName()); %>
+	<hr>
+	
+	<jsp:useBean id="student" class="model.Student" scope="session"></jsp:useBean>
+	<h1 style="color: blue">
+		ID: <jsp:getProperty property="ID" name="student" /><br>
+		First Name: <jsp:getProperty property="firstName" name="student" /><br>
+		Last Name: <jsp:getProperty property="lastName" name="student" />
+	<hr>
+	
+	<h2 style="color: red">
+		ID: ${student.ID} <br> 
+		First Name: ${student.firstName} <br>
+		Last Name: ${student.lastName}
 </body>
 </html>
 ```
