@@ -10,16 +10,20 @@
 </head>
 <body>
 	<form method="post" action="Controller">
-		<label>Make: </label><input type="text" name="make"> <label>Year:
-		</label><input type="text" name="year"> <label>Color: </label><select
-			name="colors">
+		<label>Make: </label>
+			<input type="text" name="make"> 
+		<label>Year: </label>
+			<input type="text" name="year"> 
+		<label>Color: </label>
+		<select name="colors">
 			<option>Black</option>
 			<option>Blue</option>
 			<option>Red</option>
 			<option>Silver</option>
 			<option>While</option>
-		</select> <input type="submit" name="button" value="new"> <input
-			type="submit" name="button" value="done">
+		</select> 
+		<input type="submit" name="button" value="new"> 
+		<input type="submit" name="button" value="done">
 	</form>
 </body>
 </html>

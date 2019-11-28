@@ -1,0 +1,31 @@
+- JDBC
+- WEB
+  - get vs post
+- servlet
+  - lifecycle
+  - printWriter 
+  - annotation vs delployment descriptor
+  - redirect vs dispatch
+- web-xml (week 6)
+  - servlet annotation
+  - welcome file
+  - error pages
+- JSP (week 8)
+  - servlet vs jsp
+  - comment / scriptlet / expression / declaration
+  - scriptlet vs declaration (scope is different)
+  - lifecycle
+  - implicit objects
+  - jsp action tag
+- EL (week 9)
+  - EL vs JSP Tags
+  - collections / scope / operators
+- JSTL (week 10)
+  - foreach / if / choose
+  - import
+- Custom Tag (Week 11)
+- MVC Design Pattern (Week 11)
+- Listeners (Week 11)
+- Filters (Week 12)
+
+  
