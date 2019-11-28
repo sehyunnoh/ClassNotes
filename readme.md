@@ -7,3 +7,5 @@
 # Semester 3
 - Java Enterprise
 - Database
+- Linux
+- Mobile Web
