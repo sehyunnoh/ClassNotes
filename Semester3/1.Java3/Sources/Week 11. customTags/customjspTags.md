@@ -1,4 +1,4 @@
-[customjsptags](../images/Week10.customjspTags.jpg)
+![customjsptags](../images/Week10.customjspTags.jpg)
 
 ## index.jsp
 ```jsp

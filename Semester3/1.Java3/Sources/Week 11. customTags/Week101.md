@@ -1,5 +1,5 @@
-[Week101_result](../images/Week101.result.jpg)
-[Week101_structure](../images/Week101.structure.jpg)
+![Week101_result](../images/Week101.result.jpg)
+![Week101_structure](../images/Week101.structure.jpg)
 
 ## customTags.jsp
 ```jsp
